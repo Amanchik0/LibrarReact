@@ -11,6 +11,13 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Также отмечу что если хотите протестить админку то надо будет перейти в UserStore и там 
+поменять такие значения 
+        this._isAuth = false
+        this._isAdmin = true  
+        ну думаю тутто вы поймете что? как? зачем? 
+        ну в ином случае обясню 23 числа на сессии 
+И да я не стал заморачиваться и не стал добавлять страну и остольное , так как и одной книги достаточно 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -68,3 +75,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+

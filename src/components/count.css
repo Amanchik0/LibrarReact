@@ -1,0 +1,15 @@
+.countryDiv{
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+.cardMl{
+    margin-right: 10px;
+}
+.reviews-section img {
+    width: 15%;
+    border: none;
+}

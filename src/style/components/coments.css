@@ -1,0 +1,60 @@
+.coments h3 { 
+    font-size: 20px;
+    font-weight: 700;    
+    margin-top: 30px;
+
+}
+
+.coments>p { 
+    margin-top: 20px;
+}
+.coments-stars { 
+    display: flex;
+    gap: 10px;
+}
+.coments-stars img{ 
+    width: 30px;
+    filter: grayscale(100%);
+    z-index: 0;
+}
+.add-coment-form { 
+    margin-top: 30px;
+}
+.add-coment-form textarea{ 
+    width: 100%;    
+    resize: none; 
+    height: 100px;
+    margin-top: 20px;
+}
+.add-coment-form button{ 
+    display: flex;
+    align-items: center;
+    width: 10%;
+    padding: 15px 20px ;
+    border: none;
+    background: linear-gradient(90deg , #ff5c4d , #eb469f 26.56% , #8341ef 75%,#3f68f9) ;
+    color: #fff;
+    font-size: 16px; 
+    font-weight: 600;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.add-coment-form p { 
+    margin: 10px 0;
+}
+.active-stars { 
+    filter: grayscale(0%) !important;
+}
+.coment{ 
+margin: 20px 0 ;
+border:1px solid #bbaeae;
+border-radius:10px ;
+padding: 15px;
+}
+.coment p a {
+    text-decoration: none;
+}
+.coment p { 
+    margin: 15px 0;
+}
